@@ -1,0 +1,16 @@
+/* styling footer section */
+
+.footer {
+    margin-top: 2em;
+    background-color: #efefef;
+    color: #ffffff;
+    font-size: 12px;
+    padding-left: 1rem;
+}
+
+.footer ul {
+    margin: 15px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}

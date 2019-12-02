@@ -1,0 +1,43 @@
+.body{
+    background-color: lightcoral;
+}
+
+.container{
+     /* Step 1: Set display to grid */
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    /* setup rows and columns */
+    grid-template-columns: 30px repeat(7, 1fr);
+    grid-template-rows: 70px 400px 1fr;
+    /* setup grid area */
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+}
+
+.box{
+    border: 1px solid red;
+    background: rosybrown;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.footer{
+    grid-area: ft;
+}
+
+.sidebar{
+    grid-area: sd;
+}
+
+.content{
+    grid-area: main;
+    background-image: url('Blog/images/kylo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

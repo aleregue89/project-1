@@ -1,0 +1,29 @@
+/* adding style to the nestedgrid */
+#nestedgrid_nav{
+    /* Set display to grid */
+    display: grid;
+    /*grid-template-columns: 40% 55% 5%;*/
+    /*grid-template-rows: 100%;*/
+    grid-template-areas: 
+    "h3"
+    "nav";
+    border: 3px solid white;
+    background-color: grey;
+
+}
+
+/* adding style to elements */
+
+ul{
+    padding: 0.5em;
+    list-style: none;
+}
+
+li{
+    padding: 0.5em;
+}
+
+nav ul li a{
+    color: #02b3e4;
+    text-decoration: none;
+}

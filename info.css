@@ -1,0 +1,26 @@
+/* styling info section */
+
+.author-title{
+    /* Set display to grid */
+        display: flex;
+        align-items: center;
+    /* others format */
+        margin: auto 0;
+    }
+    
+    .author-title img{
+        margin-right: 1em;
+    }
+    
+    .author-details{
+        display: flex;
+        flex-direction: column;
+      }
+    
+    .author-details p{
+        margin: 0;
+      }
+    
+.info{
+    background-color: whitesmoke;
+}

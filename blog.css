@@ -1,0 +1,80 @@
+/* css imports */
+@import "info.css";
+@import "footer.css";
+@import "content.css";
+
+body{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 100;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling h elements */
+header{
+    display: flex;
+    align-items: center;   
+    margin-top: 1em;
+    
+ }
+
+ header a {
+    color: #02b3e4;
+  }
+
+/* Anything smaller than the first breakpoint 600px*/
+.container {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info"
+    "content"
+    "footer";
+}
+
+.header{
+    grid-area: hd;
+}
+
+.info{
+    grid-area: feat;
+}
+
+.content{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: ft;
+}
+
+
+/* medium screens */
+@media (min-width: 600px) {
+    /* adding style to the main grid */
+.container {
+    /* Set display to grid */
+    display:grid;
+    /* setup rows and columns */
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 50px 500px 1fr;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "feat feat main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    /*border: 2px solid yellow;*/
+    }
+}
+
+
+/*.box{
+    border: 1px solid red;
+    background: #F8FA9D;
+}*/
+
+
+
+ 

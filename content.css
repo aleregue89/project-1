@@ -1,0 +1,33 @@
+/* styling for index.html */
+.card{
+    background-color: whitesmoke;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+/* styling for post.html */
+p{
+    margin-left: 1em;
+}
+
+h3{
+    margin-left: 0.5em;
+}
+
+.card a{
+    color: #02b3e4;
+    text-decoration: none;
+}
+
+.posts{
+    background-color: #efefef;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 5px;
+}
